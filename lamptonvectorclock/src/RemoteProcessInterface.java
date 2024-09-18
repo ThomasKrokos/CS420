@@ -7,4 +7,5 @@ public interface RemoteProcessInterface extends Remote {
     void sendEvent(int targetID, String data) throws RemoteException;
     void receiveEvent(int[] vectorClock, String data) throws RemoteException;
     void internalEvent() throws RemoteException;
+
 }

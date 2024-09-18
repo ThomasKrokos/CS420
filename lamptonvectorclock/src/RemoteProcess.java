@@ -3,7 +3,7 @@ import java.rmi.server.UnicastRemoteObject;
 import java.rmi.Naming;
 
 
-public class RemoteProcess  extends UnicastRemoteObject implements RemoteProcessInterface {
+public class RemoteProcess extends UnicastRemoteObject implements RemoteProcessInterface {
     private VectorClock localClock;
     private int localID;
     
